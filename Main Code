@@ -1,0 +1,26 @@
+import turtle
+t=turtle.Turtle()
+turtle.title("for dickhead")
+screen=turtle.Screen()
+screen.bgcolor("black")
+t.color("red")
+
+#The real shit
+t.fillcolor("red")
+t.begin_fill()
+t.left(140)
+t.forward(180)
+t.circle(-90,200)
+t.setheading(60)
+t.circle(-90,200)
+t.forward(100)
+t.end_fill()
+
+t.up()
+t.setpos(-80, 150)
+t.down()
+t.color("white")
+#Main Message, can change it to whatever you want
+t.write("I LOVE YOU", font=("Rockwell Nova", 20))
+t.ht()
+turtle.mainloop()
